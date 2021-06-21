@@ -1,0 +1,225 @@
+:root{ /*declara variables*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+   }
+
+   html {
+    font-size: 62.5%;
+   }
+   body{
+    font-size: 16px; /* 1rem=10px*/
+   }
+
+   .titulo {
+    text-align: center;
+    font-size: 3.8rem;
+   }
+   /*nav*/
+   .nav-color{
+    background-color: var(--secundario);
+   }
+   .contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+   }
+   .navegacion-principal{
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    display: flex;
+    justify-content: space-between;
+   }
+   .navegacion-principal a {
+    font-family: sans-serif;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700; /*negrita o peso del texto*/
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+   }
+   .navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+   }
+   html {
+    font-size: 62.5%;
+    box-sizing: border-box; /*para evitar los pading*/
+   }
+   /*se aplique a todos a todos los psedoelemetos*/
+   *, *::after,*::after{
+    box-sizing: border-box;
+   }
+   .hero{
+    background-image: url("https://media.istockphoto.com/photos/top-view-desk-workspace-with-laptop-computer-picture-id1176157609?k=6&m=1176157609&s=612x612&w=0&h=_g5nWde1l8YpK8qvL_QaV-KVaALmmW1TXDqLkqXDQVk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    /*padding: 20px;*/
+    position: relative;
+   }
+   .contenido-hero{
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+   }
+
+   .contenido-hero{
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    /*alinear horizontal y vertical */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .contenido-hero h2, .contenido-hero p{
+    color: var(--blanco);
+   }
+
+   body{
+    font-family: sans-serif;
+    font-size: 16px; /* 1rem=10px*/
+   }
+   h1{
+    font-family: sans-serif;
+    font-size: 3.8rem;
+   }
+   h2{
+    font-family: sans-serif;
+    font-size: 2.8rem;
+   }
+   h3{
+    font-family: sans-serif;
+    font-size: 1.8rem;
+   }
+   h1, h2, h3{
+    text-align: center;
+   }
+   .boton{
+    font-family: sans-serif;
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5rem;
+   }   
+    *{box-sizing:border-box;}
+
+form{
+    font-size: 17px;
+    font-family:"Berlin Sans FB";
+    color: #fff;
+	width:800px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgb(92, 88, 88);
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="tel"]{
+	width:265px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="email"]{
+	width:650px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+form input[type="email2"]{
+	width:585px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+form input[type="submit"]{
+    font-family:"Berlin Sans FB";
+	width:20%;
+	padding:8px 16px;
+	margin-top:15px;
+	border:1px ;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgba(9, 130, 167, 0.911);
+} 
+
+textarea{
+	width:650px;/*87%;*/
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+}
+.pie{ 
+    clear: both;
+    padding: 10px; /*relleno o margen interior de 20 píxeles por cada lado*/
+    background: #dfe6e9;
+    text-align: center;  } 
+.sub{
+    font-size: 2rem;
+    color:#ffc107 ;
+    font-family:"Berlin Sans FB";
+}
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    
+}
+.cuerpo{
+    text-align: center;
+    background-image: url("https://images.vexels.com/media/users/3/125334/raw/225b69dcc7a20a93e2e881642a68b667-fondo-poligonal-bajo.jpg"); 
+}
+.logo {
+    width:90px;
+    height:90px;
+    border-radius:150px;
+    background-color:#ffc107;
+}
+.perfil {
+    width:130px;
+    height:130px;
+    border-radius:150px;
+    border:14px solid #07596941;
+}
+.tam{
+    width: 130px;
+    height: 170px;
+}
+article{ 
+    font-family: "Cambria Math"; 
+    border: none; 
+    display: block;
+    padding: 20px; 
+    margin-bottom: 15px; 
+    } 
+section{
+    background-image: url("https://images.vexels.com/media/users/3/125334/raw/225b69dcc7a20a93e2e881642a68b667-fondo-poligonal-bajo.jpg"); 
+}

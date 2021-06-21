@@ -1,0 +1,38 @@
+
+section,aside,article, hgroup{ 
+    display: block; } 
+.agrupar{ 
+    background: var(--oscuro); 
+    width: 960px; 
+    margin: auto; 
+    margin-top: 15x; 
+    margin-bottom: 15px; 
+    padding: 10px; } 
+
+.seccion{ 
+    margin: 20px; 
+    width: 60%; 
+    float: left; } 
+.columna{ 
+    width: 35%;
+    float: left;
+    margin: 20px 0px; }
+.columna blockquote{ 
+    text-align: center;
+    font-family: "serif";
+    padding: 40px; 
+    background: #52575841;
+    margin-bottom: 20px; }
+article{ 
+    text-align: center;
+    font-family: "serif";
+    background: #8383832f;
+    border: none; 
+    padding: 20px; 
+    margin-bottom: 15px; } 
+.fondos2{
+    background: #44444450;
+}
+.fondos1{
+    background: #07596941;
+}

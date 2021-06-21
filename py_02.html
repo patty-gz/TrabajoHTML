@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+<title>Contactos</title>
+</head>
+<body>
+ <header>
+ <h1 class="titulo">Patricia Guzmán - Desarrollador web</h1>
+ </header>
+ <div class="nav-color">
+ <nav class="navegacion-principal contenedor">
+  <a href="http://127.0.0.1:5500/py_01.html">Inicio</a>
+  <a href="http://127.0.0.1:5500/py_05.html">Nosotros</a>
+  <a href="http://127.0.0.1:5500/py_03.html">Servicios</a>
+  <a href="http://127.0.0.1:5500/py_04.html">Clientes</a>
+ </nav>
+ </div>
+    <section>
+        <h2>Contacto</h2>
+        <form action="">
+        <table align='center' border='0' width='750'> 
+          <tr> 
+             <td colspan='2' align="center" class="sub">
+                CONTACTANOS LLENANDO TODOS LOS DATOS
+             </td> 
+         </tr> 
+          <tr> 
+              <td>
+                Nombre: 
+                <input type="text" placeholder="Nombre" required minlength="1" maxlength="20">
+              </td> 
+              <td>
+                Telefono: 
+                <input type="tel" placeholder="Telefono" required minlength="1" maxlength="9">
+              </td>
+          </tr> 
+          <tr> 
+              <td colspan='2'>
+                Correo:
+                <input type="email" name="correo" placeholder="Mail" required minlength="1" maxlength="20" onblur="pruebaemail(correo.value);">
+              </td> 
+          </tr> 
+          <tr> 
+            <td colspan='2'>
+              Repita su correo:
+              <input type="email2" name="correo2" placeholder="Mail" required minlength="1" maxlength="20" onblur="igualemail(correo.value,correo2.value);">
+            </td> 
+        </tr> 
+       </table> 
+       <table>
+          <tr>
+             <td>Mensaje: </td>
+             <td>
+                <textarea ></textarea>
+             </td>
+          </tr>
+          <tr> 
+             <td colspan="2" align="right" >
+               <input type="submit" value="ENVIAR">
+            </td>
+         </tr> 
+       </table>
+        </section>
+          <br><br>
+        <footer class="pie">
+          <p>Todos los derechos reservados. Patricia Guzmán - Desarrollado web</p>
+      </footer>
+</body>
+<script>
+  function pruebaemail (valor){
+    re=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+    if(!re.exec(valor)){
+    alert('email no valido');
+    }
+  }
+  function igualemail(correo1,correo2){
+    if(correo1===correo2)
+    {
+
+    }else
+    {
+      alert("El correo ingresado es diferente, vuelva a ingresar");
+    }
+  }
+</script>
+</html>
